@@ -1,2 +1,11 @@
 # Databricks notebook source
-print("hi")
+from datetime import datetime
+
+now = datetime.now()
+
+
+
+# COMMAND ----------
+
+current_time = now.strftime("%H:%M:%S")
+print("Current Time =", current_time)
